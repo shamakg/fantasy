@@ -1,8 +1,6 @@
 
 
-from espn_api.football import League
-from espn_api.football import Player
-from espn_api.football import BoxPlayer
+from espn_api.football import League, Player, BoxPlayer
 from typing import List, Tuple, Union
 import datetime
 import time

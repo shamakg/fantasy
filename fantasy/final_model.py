@@ -1,14 +1,12 @@
 
 from sklearn.model_selection import cross_val_score, cross_val_predict, KFold
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_absolute_error
-import numpy as np
+from sklearn.metrics import mean_absolute_error, accuracy_score
 from sklearn.preprocessing import StandardScaler
-
-from sklearn.metrics import accuracy_score
 
 import matplotlib.pyplot as plt
 
+import numpy as np
 import pandas as pd
 import seaborn as sns
 
