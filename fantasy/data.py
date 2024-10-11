@@ -72,7 +72,7 @@ POSITION_MAP = {
 }
 
 # Usage
-league = CustomLeague(league_id=631287584, year=2023, espn_s2='AECc2PX72oWnEMq3RU8fvlMs3ttgM1%2FTTyhgeuVnE5IAnrRlmyak0%2BiDEapWxVyeettAYLnxU8wD7vR9SdgKO3%2BhfXSznmeICRYbcIM1HpYpLz1R6gQKK6KlxN10H2TPtnlDJVmQSAXERBTaWGYwABUYwTHBW5OquEBHSp5%2FsD2NcolbstyeHsSAfOWR9qLwCtAvq%2Fge8OC7evQhczSM6giNcEWLF3MdHeCmSmxITKzdEDhlVZUrZkohxX9gd4lydESPbLCN5QKaWc18k1%2FaZ9HnGMiWgqWRgI1bI2igcw6adQ%3D%3D', swid='{E9847234-B60D-4F8D-95E8-3302721974BD}',debug=True)
+#league = CustomLeague(league_id=YOUR_LEAGUE_ID, year=YEAR, espn_s2=YOUR_ESPN_S2, swid=YOUR_SWID,debug=True)
 
 free_agents_df = league.free_agents_to_dataframe(week=18)
 
